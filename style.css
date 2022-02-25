@@ -8,4 +8,34 @@ html {
 
 body {
   margin: 0;
+    background-color: lightgrey;
+}
+
+/* mobile first */
+
+/* FONT and TEXT POSITIONING */
+
+
+
+.himilayan-list {
+  list-style: none;
+  padding: .5rem;
+}
+
+.image {
+  width: min(70%, 800px);
+  margin: 0 auto;
+}
+
+.inner-container {
+  padding-top: 0.1rem;
+  width: min(90%, 1200px);
+  margin: 0 auto;
+  background-color: #1fc;
+}
+
+/* IDS */
+
+#main {
+  background-color: lightgrey;
 }
